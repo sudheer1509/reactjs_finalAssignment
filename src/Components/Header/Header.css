@@ -1,0 +1,55 @@
+.headerContainer {
+  background-color: rgb(86, 112, 134);
+  height: 100px;
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.headerBrand {
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  align-items: center;
+  padding: 30px 20px 30px 60px;
+}
+
+.nav-link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav .navbar-nav li {
+  /* color: white !important; */
+  padding-left: 25px;
+  padding-right: 25px;
+}
+nav .navbar-nav li a {
+  color: white !important;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+}
+nav .navbar-nav li a span {
+  text-transform: capitalize;
+  font-size: 15px;
+}
+
+nav div > .nav-item {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  padding: 30px 20px 30px 20px;
+}
+
+.loginBtn:hover {
+  text-decoration: none;
+  cursor: pointer;
+}

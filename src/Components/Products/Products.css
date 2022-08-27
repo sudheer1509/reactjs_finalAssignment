@@ -1,0 +1,74 @@
+.container {
+  margin-top: 20px;
+}
+.box1 {
+  background-color: rgb(67, 92, 112);
+  padding: 40px;
+  margin: 10px;
+}
+.productsScroll {
+  overflow-y: scroll;
+  height: 300px;
+  scrollbar-color: red green;
+}
+table {
+  box-sizing: border-box;
+  padding: auto auto;
+}
+thead {
+  background-color: rgb(72, 97, 119);
+}
+thead tr {
+  margin: 10px;
+  background-color: rgb(80, 105, 127);
+  border-bottom: 1px solid rgb(67, 92, 112);
+}
+thead tr:hover {
+  background-color: rgb(72, 97, 119);
+}
+tbody tr {
+  background-color: rgb(80, 105, 127);
+  border-bottom: 1px solid rgb(67, 92, 112);
+}
+tbody tr:hover {
+  background-color: rgb(72, 97, 119);
+}
+th,
+td {
+  font-size: 15px;
+  padding: 15px 20px;
+  color: white;
+  font-weight: bold;
+}
+.box2 {
+  background-color: rgb(67, 92, 112);
+  padding: 20px;
+  margin: 10px;
+}
+.box2heading {
+  padding-left: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btnDiv,
+.btnDiv2 {
+  margin: 20px 15px 10px auto;
+  background-color: rgb(245, 166, 35);
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.btnDiv2 {
+  margin: 20px 5px 10px auto;
+}
+.headerBtn1,
+.headerBtn2,
+.headerBtn3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}

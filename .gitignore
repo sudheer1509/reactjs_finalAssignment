@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+#   // <nav className="navbar navbar-expand-lg navbar-light bg-light">
+#     //   <a className="navbar-brand" href="index.html#">
+#     //     Navbar w/ text
+#     //   </a>
+#     //   <button
+#     //     className="navbar-toggler"
+#     //     type="button"
+#     //     data-toggle="collapse"
+#     //     data-target="#navbarText"
+#     //     aria-controls="navbarText"
+#     //     aria-expanded="false"
+#     //     aria-label="Toggle navigation"
+#     //   >
+#     //     <span className="navbar-toggler-icon"></span>
+#     //   </button>
+#     //   <div className="collapse navbar-collapse" id="navbarText">
+#     //     <ul className="navbar-nav mr-auto">
+#     //       <li className="nav-item active">
+#     //         <a className="nav-link" href="index.html#">
+#     //           Home <span className="sr-only">(current)</span>
+#     //         </a>
+#     //       </li>
+#     //       <li className="nav-item">
+#     //         <a className="nav-link" href="index.html#">
+#     //           Features
+#     //         </a>
+#     //       </li>
+#     //       <li className="nav-item">
+#     //         <a className="nav-link" href="index.html#">
+#     //           Pricing
+#     //         </a>
+#     //       </li>
+#     //     </ul>
+#     //     <span className="navbar-text">Navbar text with an inline element</span>
+#     //   </div>
+#     // </nav>

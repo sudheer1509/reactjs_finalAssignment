@@ -1,0 +1,71 @@
+.apcontainer {
+  background-color: rgb(67, 92, 112);
+  height: 700px;
+  width: 1000px;
+  margin: 50px auto;
+  padding: 30px 50px;
+}
+
+.apheading {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+}
+.apform {
+  display: flex;
+}
+
+.apfield {
+  margin-top: 20px;
+}
+
+.apfield label {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.apfield input,
+.apfield select {
+  width: 80%;
+  padding: 10px 20px;
+  background-color: rgb(84, 101, 125);
+  border: none;
+}
+.apfield input:focus,
+.apfield textarea:focus {
+  outline: none !important;
+}
+.apfield textarea {
+  width: 80%;
+  padding: 10px;
+  height: 100px;
+  background-color: rgb(84, 101, 125);
+  border: none;
+}
+
+.apsection {
+  display: flex;
+}
+.apimagesection {
+  width: 80%;
+  height: 300px;
+}
+.apimageuploadbtn {
+  background-color: rgb(245, 166, 35);
+  width: 80%;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin: 20px 0px;
+  padding: 15px;
+}
+
+.apAddProductbtn {
+  background-color: rgb(245, 166, 35);
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin: 40px 0px;
+  padding: 15px;
+}

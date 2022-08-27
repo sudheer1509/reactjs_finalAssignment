@@ -1,0 +1,51 @@
+/* form {
+  margin: auto auto;
+  border: border-box;
+  background-color: rgb(67, 92, 112);
+} */
+.Container {
+  background-color: rgb(67, 92, 112);
+  height: 500px;
+  width: 500px;
+  margin: 50px auto;
+}
+.formHeading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.field {
+  padding-left: 40px;
+}
+.field label {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.field input {
+  width: 80%;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: rgb(84, 101, 125);
+  border: none;
+}
+.field input:focus {
+  outline: none;
+  border: 3px solid rgb(86, 112, 134);
+}
+form button {
+  background-color: rgb(245, 166, 35);
+  width: 75%;
+  padding: 10px;
+  margin-left: 40px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.errorMessage {
+  color: red;
+  padding-left: 40px;
+}
